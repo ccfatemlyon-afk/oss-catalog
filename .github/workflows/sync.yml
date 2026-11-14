@@ -1,0 +1,61 @@
+name: sync-catalog
+
+# 每天从起点雷达 oss 站拉取最新底库（站点由 Cloudflare Pages 部署）。
+# 只做两件事：下载 catalog.json / catalog.csv、有变化就提交。
+# 本机不需要任何凭据；数据源头仍是项目仓库里的 data/oss_catalog.json。
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # UTC 02:00 ≈ 本机 03:00（冬季 UTC+1），在日链 22:30 之后
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch catalog from site
+        run: |
+          set -euo pipefail
+          base="https://qidian-radar.pages.dev/oss/data"
+          for f in catalog.json catalog.csv; do
+            curl -fsSL --retry 3 --retry-delay 5 -A "oss-catalog-sync/1.0" "$base/$f" -o "$f"
+            test -s "$f"
+          done
+          ls -l catalog.json catalog.csv
+
+      - name: Sanity check
+        run: |
+          set -euo pipefail
+          python3 - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("catalog.json", encoding="utf-8"))
+          items = d["items"]
+          with_scenes = sum(1 for i in items if i.get("scenes"))
+          print(f"- 条目：**{len(items)}**")
+          print(f"- 带 scenes：**{with_scenes}**")
+          print(f"- 元数据更新：`{d.get('enriched_at') or '—'}`")
+          assert len(items) > 400, "条目数异常（站点可能挂了下线页）"
+          assert with_scenes >= int(len(items) * 0.8), "scenes 覆盖异常"
+          PY
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name "oss-catalog-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- catalog.json catalog.csv; then
+            echo "无变化，跳过提交" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git add catalog.json catalog.csv
+          git commit -m "data: 底库每日同步 $(date -u +%F)"
+          git push
