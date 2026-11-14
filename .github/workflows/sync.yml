@@ -52,10 +52,11 @@ jobs:
           set -euo pipefail
           git config user.name "oss-catalog-bot"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet -- catalog.json catalog.csv; then
+          # 必须先 add 再看暂存区：git diff 对未跟踪的新文件恒为空，首跑会把数据静默丢掉。
+          git add -A catalog.json catalog.csv
+          if git diff --cached --quiet; then
             echo "无变化，跳过提交" | tee -a "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
-          git add catalog.json catalog.csv
           git commit -m "data: 底库每日同步 $(date -u +%F)"
           git push
