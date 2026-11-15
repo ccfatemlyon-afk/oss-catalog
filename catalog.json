@@ -260,8 +260,7 @@
    "error": "",
    "scenes": [
     "rag",
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -306,7 +305,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "agent",
     "voice",
     "devtool",
     "llm"
@@ -339,9 +337,7 @@
    "scenes": [
     "agent",
     "rag",
-    "devtool",
-    "selfhost",
-    "llm"
+    "devtool"
    ]
   },
   {
@@ -390,8 +386,7 @@
    "error": "",
    "scenes": [
     "agent",
-    "devtool",
-    "llm"
+    "devtool"
    ]
   },
   {
@@ -410,7 +405,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "agent",
     "vision"
    ]
   },
@@ -463,8 +457,7 @@
    ],
    "error": "",
    "scenes": [
-    "agent",
-    "devtool"
+    "agent"
    ]
   },
   {
@@ -520,7 +513,6 @@
    "error": "",
    "scenes": [
     "agent",
-    "devtool",
     "fun"
    ]
   },
@@ -540,8 +532,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "agent",
-    "devtool"
+    "agent"
    ]
   },
   {
@@ -595,8 +586,7 @@
    ],
    "error": "",
    "scenes": [
-    "agent",
-    "llm"
+    "agent"
    ]
   },
   {
@@ -656,8 +646,7 @@
     "agent",
     "rag",
     "devtool",
-    "llm",
-    "dashboard"
+    "llm"
    ]
   },
   {
@@ -772,8 +761,7 @@
    "scenes": [
     "agent",
     "devtool",
-    "llm",
-    "dashboard"
+    "llm"
    ]
   },
   {
@@ -926,8 +914,7 @@
    "scenes": [
     "agent",
     "devtool",
-    "notes",
-    "dashboard"
+    "notes"
    ]
   },
   {
@@ -956,8 +943,7 @@
    "error": "",
    "scenes": [
     "agent",
-    "llm",
-    "dashboard"
+    "llm"
    ]
   },
   {
@@ -986,8 +972,7 @@
    "error": "",
    "scenes": [
     "notes",
-    "llm",
-    "notify"
+    "llm"
    ]
   },
   {
@@ -1285,7 +1270,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "agent",
     "vision",
     "devtool",
     "notes"
@@ -1330,8 +1314,7 @@
    "error": "",
    "scenes": [
     "rag",
-    "devtool",
-    "llm"
+    "devtool"
    ]
   },
   {
@@ -1350,7 +1333,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "agent",
     "rag",
     "devtool",
     "scrape",
@@ -1434,8 +1416,7 @@
    "scenes": [
     "agent",
     "devtool",
-    "notes",
-    "dashboard"
+    "notes"
    ]
   },
   {
@@ -1455,8 +1436,7 @@
    "error": "",
    "scenes": [
     "vision",
-    "notes",
-    "llm"
+    "notes"
    ]
   },
   {
@@ -1516,8 +1496,7 @@
     "agent",
     "vision",
     "devtool",
-    "notes",
-    "dashboard"
+    "notes"
    ]
   },
   {
@@ -1587,8 +1566,7 @@
    "scenes": [
     "agent",
     "devtool",
-    "scrape",
-    "privacy"
+    "scrape"
    ]
   },
   {
@@ -1693,8 +1671,7 @@
     "agent",
     "devtool",
     "notes",
-    "commerce",
-    "dashboard"
+    "commerce"
    ]
   },
   {
@@ -1845,9 +1822,7 @@
    "scenes": [
     "agent",
     "devtool",
-    "notes",
-    "notify",
-    "dashboard"
+    "notes"
    ]
   },
   {
@@ -1901,8 +1876,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "privacy"
+    "devtool"
    ]
   },
   {
@@ -1978,8 +1952,7 @@
    "error": "404",
    "scenes": [
     "agent",
-    "llm",
-    "dashboard"
+    "llm"
    ]
   },
   {
@@ -2158,7 +2131,6 @@
    "scenes": [
     "agent",
     "rag",
-    "selfhost",
     "llm"
    ]
   },
@@ -2454,7 +2426,6 @@
    "scenes": [
     "vision",
     "selfhost",
-    "llm",
     "fun"
    ]
   },
@@ -2645,8 +2616,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -2764,7 +2734,6 @@
    ],
    "error": "",
    "scenes": [
-    "agent",
     "vision",
     "devtool"
    ]
@@ -2814,7 +2783,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "llm",
     "fun"
    ]
   },
@@ -2859,7 +2827,7 @@
    ],
    "error": "",
    "scenes": [
-    "llm"
+    "other"
    ]
   },
   {
@@ -2887,8 +2855,7 @@
    ],
    "error": "",
    "scenes": [
-    "scrape",
-    "dashboard"
+    "scrape"
    ]
   },
   {
@@ -3111,7 +3078,6 @@
    "scenes": [
     "vision",
     "scrape",
-    "notes",
     "commerce",
     "i18n"
    ]
@@ -3141,7 +3107,6 @@
     "devtool",
     "scrape",
     "notes",
-    "llm",
     "commerce",
     "ops"
    ]
@@ -3225,9 +3190,7 @@
    ],
    "error": "",
    "scenes": [
-    "rag",
-    "notes",
-    "llm"
+    "rag"
    ]
   },
   {
@@ -3653,8 +3616,7 @@
    "error": "",
    "scenes": [
     "agent",
-    "scrape",
-    "llm"
+    "scrape"
    ]
   },
   {
@@ -3934,7 +3896,7 @@
    ],
    "error": "",
    "scenes": [
-    "dashboard"
+    "other"
    ]
   },
   {
@@ -4020,7 +3982,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
     "fun"
    ]
   },
@@ -4088,7 +4049,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -4181,7 +4142,7 @@
    "topics": [],
    "error": "403",
    "scenes": [
-    "dashboard"
+    "other"
    ]
   },
   {
@@ -4320,7 +4281,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "dashboard",
     "fun"
    ]
   },
@@ -4633,8 +4593,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
-    "notes"
+    "devtool"
    ]
   },
   {
@@ -4709,7 +4668,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -4765,7 +4724,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -4817,8 +4776,7 @@
    ],
    "error": "",
    "scenes": [
-    "vision",
-    "notes"
+    "vision"
    ]
   },
   {
@@ -4837,7 +4795,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "agent",
     "voice"
    ]
   },
@@ -4899,7 +4856,6 @@
    "error": "",
    "scenes": [
     "vision",
-    "devtool",
     "notes"
    ]
   },
@@ -4928,7 +4884,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -4972,7 +4928,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5067,7 +5023,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "fun"
    ]
   },
@@ -5087,7 +5042,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "dashboard"
+    "other"
    ]
   },
   {
@@ -5245,7 +5200,6 @@
    ],
    "error": "",
    "scenes": [
-    "dashboard",
     "fun"
    ]
   },
@@ -5274,7 +5228,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "fun"
    ]
   },
@@ -5294,7 +5247,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5388,7 +5341,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "commerce"
    ]
   },
@@ -5477,7 +5429,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5543,8 +5495,7 @@
    ],
    "error": "",
    "scenes": [
-    "vision",
-    "selfhost"
+    "vision"
    ]
   },
   {
@@ -5572,7 +5523,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5591,7 +5542,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5620,8 +5571,7 @@
    "error": "",
    "scenes": [
     "devtool",
-    "selfhost",
-    "dashboard"
+    "selfhost"
    ]
   },
   {
@@ -5664,7 +5614,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5686,7 +5636,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "llm"
    ]
   },
@@ -5713,7 +5662,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5732,7 +5681,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5751,7 +5700,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5775,7 +5724,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5794,7 +5743,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5813,7 +5762,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5837,7 +5786,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5856,7 +5805,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5881,7 +5830,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -5938,8 +5887,7 @@
    ],
    "error": "",
    "scenes": [
-    "voice",
-    "devtool"
+    "voice"
    ]
   },
   {
@@ -5958,8 +5906,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -5978,8 +5925,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "other"
    ]
   },
   {
@@ -6005,8 +5951,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -6034,7 +5979,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "dashboard"
    ]
   },
@@ -6054,7 +5998,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -6081,7 +6025,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -6186,7 +6130,7 @@
    ],
    "error": "",
    "scenes": [
-    "dashboard"
+    "other"
    ]
   },
   {
@@ -6243,7 +6187,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "privacy"
    ]
   },
@@ -6334,7 +6277,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "llm"
    ]
   },
@@ -6411,8 +6353,7 @@
    "error": "",
    "scenes": [
     "notes",
-    "llm",
-    "dashboard"
+    "llm"
    ]
   },
   {
@@ -6440,7 +6381,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "ops"
    ]
   },
@@ -6470,8 +6410,7 @@
    "error": "",
    "scenes": [
     "devtool",
-    "selfhost",
-    "dashboard"
+    "selfhost"
    ]
   },
   {
@@ -6498,7 +6437,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "privacy"
    ]
   },
@@ -6607,7 +6545,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -6673,7 +6611,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "dashboard",
     "fun"
    ]
   },
@@ -6771,7 +6708,6 @@
    ],
    "error": "",
    "scenes": [
-    "agent",
     "devtool",
     "ops",
     "dashboard"
@@ -6859,8 +6795,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -6934,8 +6869,7 @@
    "error": "",
    "scenes": [
     "rag",
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -7065,7 +6999,7 @@
    ],
    "error": "",
    "scenes": [
-    "llm"
+    "other"
    ]
   },
   {
@@ -7094,8 +7028,7 @@
    "error": "",
    "scenes": [
     "devtool",
-    "selfhost",
-    "llm"
+    "selfhost"
    ]
   },
   {
@@ -7489,8 +7422,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -7606,8 +7538,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "vision",
-    "devtool"
+    "vision"
    ]
   },
   {
@@ -7636,8 +7567,7 @@
    "error": "",
    "scenes": [
     "vision",
-    "scrape",
-    "dashboard"
+    "scrape"
    ]
   },
   {
@@ -7744,9 +7674,7 @@
    ],
    "error": "",
    "scenes": [
-    "agent",
-    "notes",
-    "llm"
+    "notes"
    ]
   },
   {
@@ -7774,7 +7702,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -7823,7 +7751,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "llm"
+    "other"
    ]
   },
   {
@@ -7956,8 +7884,7 @@
    ],
    "error": "",
    "scenes": [
-    "agent",
-    "selfhost"
+    "other"
    ]
   },
   {
@@ -8005,7 +7932,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -8187,7 +8114,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -9102,8 +9029,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "privacy"
+    "devtool"
    ]
   },
   {
@@ -9313,7 +9239,7 @@
    ],
    "error": "",
    "scenes": [
-    "llm"
+    "other"
    ]
   },
   {
@@ -9341,9 +9267,7 @@
    ],
    "error": "",
    "scenes": [
-    "vision",
-    "devtool",
-    "privacy"
+    "vision"
    ]
   },
   {
@@ -9400,7 +9324,6 @@
     "rag",
     "vision",
     "notes",
-    "llm",
     "i18n"
    ]
   },
@@ -9511,7 +9434,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -9539,7 +9462,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -9594,7 +9517,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -9622,7 +9545,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -9686,7 +9609,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "fun"
    ]
   },
@@ -9756,7 +9678,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "scrape",
     "notes",
     "notify"
@@ -9783,8 +9704,7 @@
    ],
    "error": "",
    "scenes": [
-    "voice",
-    "devtool"
+    "voice"
    ]
   },
   {
@@ -9810,7 +9730,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "notes"
    ]
   },
@@ -9841,7 +9760,6 @@
    "scenes": [
     "agent",
     "rag",
-    "devtool",
     "selfhost",
     "notes"
    ]
@@ -9870,7 +9788,6 @@
    "error": "",
    "scenes": [
     "voice",
-    "devtool",
     "notes",
     "i18n"
    ]
@@ -9923,9 +9840,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "selfhost",
-    "llm"
+    "selfhost"
    ]
   },
   {
@@ -9954,7 +9869,6 @@
    "error": "",
    "scenes": [
     "rag",
-    "devtool",
     "notes",
     "llm"
    ]
@@ -9978,7 +9892,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "llm"
    ]
   },
@@ -10111,8 +10024,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "notes",
     "llm"
    ]
   },
@@ -10164,9 +10075,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "notes",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -10190,7 +10099,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "dashboard"
    ]
   },
@@ -10270,7 +10178,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10299,7 +10207,6 @@
    "error": "",
    "scenes": [
     "voice",
-    "devtool",
     "fun"
    ]
   },
@@ -10325,7 +10232,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "notes"
    ]
   },
@@ -10399,7 +10305,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10418,7 +10324,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10442,7 +10348,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10470,7 +10376,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10492,7 +10398,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10520,7 +10426,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "scrape"
    ]
   },
@@ -10549,7 +10454,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "commerce",
     "ops"
    ]
@@ -10643,7 +10547,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10668,7 +10572,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10692,7 +10596,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10719,7 +10623,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10738,7 +10642,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10762,7 +10666,6 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
     "notes"
    ]
   },
@@ -10786,7 +10689,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10805,7 +10708,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10824,7 +10727,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10843,7 +10746,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10862,7 +10765,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10908,7 +10811,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10930,7 +10833,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -10949,7 +10852,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
     "ops"
    ]
   },
@@ -10969,7 +10871,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
     "notes"
    ]
   },
@@ -10989,7 +10890,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11010,7 +10911,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11032,8 +10933,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "privacy"
+    "other"
    ]
   },
   {
@@ -11074,7 +10974,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11093,7 +10993,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11112,7 +11012,6 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
     "notes",
     "notify"
    ]
@@ -11133,7 +11032,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11152,7 +11051,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11171,7 +11070,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -11343,8 +11242,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "devtool",
-    "privacy"
+    "devtool"
    ]
   },
   {
@@ -11372,8 +11270,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "devtool"
    ]
   },
   {
@@ -11773,8 +11670,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool",
-    "dashboard"
+    "other"
    ]
   },
   {
@@ -11820,7 +11716,7 @@
    ],
    "error": "",
    "scenes": [
-    "devtool"
+    "other"
    ]
   },
   {
@@ -12085,8 +11981,7 @@
    ],
    "error": "",
    "scenes": [
-    "llm",
-    "notify"
+    "other"
    ]
   },
   {
@@ -12105,8 +12000,7 @@
    "topics": [],
    "error": "",
    "scenes": [
-    "llm",
-    "notify"
+    "llm"
    ]
   },
   {
